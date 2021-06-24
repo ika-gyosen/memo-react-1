@@ -1,0 +1,11 @@
+:root {
+  --ovh: calc(100vh * 0.01);
+  --vh :var(--ovh, 1vh);
+}
+
+@media screen and (orientation: portrait) {
+      :root{--w:calc(90 * var(--vh))}
+  }
+@media screen and (orientation: landscape) {
+  :root{--w:auto}
+  }
